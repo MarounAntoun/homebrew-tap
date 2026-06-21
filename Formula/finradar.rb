@@ -12,12 +12,12 @@ class Finradar < Formula
 
   on_macos do
     url "https://github.com/MarounAntoun/finradar-cli/releases/download/cli-v#{version}/finradar-macos"
-    sha256 "REPLACE_MACOS_SHA256"
+    sha256 "d77a6a129445643c41dd374f6b4fd6ca0cf70e4391b7b59106ee12576b153f16"
   end
 
   on_linux do
     url "https://github.com/MarounAntoun/finradar-cli/releases/download/cli-v#{version}/finradar-linux"
-    sha256 "REPLACE_LINUX_SHA256"
+    sha256 "d1cf9d769e4403a1000163fc343992e6f037c2493a90cd8287a887d5d01bb18a"
   end
 
   def install
